@@ -1,0 +1,23 @@
+{
+  "name": "get_up",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houhoz/get_up.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/houhoz/get_up/issues"
+  },
+  "homepage": "https://github.com/houhoz/get_up#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
