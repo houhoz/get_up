@@ -1,4 +1,7 @@
 const axios = require('axios')
+const args = require('minimist')(process.argv.slice(2))
+const { token = '' } = args
+console.log('args :>> ', args)
 async function addIssue() {
   try {
     const res = await axios({
@@ -9,7 +12,7 @@ async function addIssue() {
         body: 'Posting a issue from Insomnia',
       },
       headers: {
-        Authorization: 'token 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',
+        Authorization: `token ${token}`,
       },
     })
     console.log('res :>> ', res)
