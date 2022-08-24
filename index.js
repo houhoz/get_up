@@ -9,7 +9,7 @@ async function addIssue() {
         body: 'Posting a issue from Insomnia',
       },
       headers: {
-        Authorization: 'token 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',
+        Authorization: 'token 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',
       },
     })
     console.log('res :>> ', res)
